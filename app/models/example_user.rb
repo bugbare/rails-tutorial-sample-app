@@ -1,12 +1,17 @@
 class User
-  attr_accessor :name, :email
+  attr_accessor :first_name, :surname, :email
 
   def initialize(attributes = {})
-    @name  = attributes[:name]
+    @first_name  = attributes[:first_name]
+    @surname = attributes[:surname]
     @email = attributes[:email]
+  end
+  
+  def fullname
+      "#{@first_name} #{@surname}"
   end
 
   def formatted_email
-    "#{@name} <#{@email}>"
+    "#{self.fullname} <#{@email}>"
   end
 end
