@@ -1,0 +1,203 @@
+[33mcommit 38f9d30f8e9fd47e2bd7171407a807dcf7a5e19c[m[33m ([m[1;36mHEAD -> [m[1;32mmodeling-users[m[33m, [m[1;31morigin/master[m[33m, [m[1;31mheroku/master[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 4528cb4 f291998
+Author: bugbare <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 22:58:56 2017 +0000
+
+    Merge pull request #4 from bugbare/user_controller
+    
+    Generated user controller, signup view and routing
+
+[33mcommit f29199878a09c6f1ef5dcc0b6f7773c6adf7371c[m[33m ([m[1;31morigin/user_controller[m[33m)[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 22:46:34 2017 +0000
+
+    Generated user controller, signup view and routing
+
+[33mcommit 4528cb417bc085e8a248f83091b6fb717edec3b9[m
+Merge: 9a0c4cd 2abebaf
+Author: bugbare <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 22:16:17 2017 +0000
+
+    Merge pull request #3 from bugbare/filling-in-layout
+    
+    Filling in layout
+
+[33mcommit 2abebaf26aacfa6bd4508cc7d705adb0cac36e9b[m[33m ([m[1;31morigin/filling-in-layout[m[33m)[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 21:28:38 2017 +0000
+
+    added layout routing paths and tests to accompany it including integration and helper
+
+[33mcommit be4361d1201cd39df50cc92550e1ed6c9e2871d8[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 19:17:06 2017 +0000
+
+    removed single quotes and type for route refs
+
+[33mcommit 30350a4695887febd0aaa544ec4f6b36866f27d9[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 19:15:16 2017 +0000
+
+    Added routing paths in partial files where applicable
+
+[33mcommit 554cd0b49b60fa55fcc0649f28b940be34779a86[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Dec 10 19:03:25 2017 +0000
+
+    Added default roots using relative route paths
+
+[33mcommit a6a8db7de0a941c315bb026a6827ed4a10918628[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Nov 1 22:08:05 2017 +0000
+
+    Added more formatting to headers
+
+[33mcommit 30867c34f2f916dd4da4c2b28d7e014737c53fff[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Nov 1 22:06:51 2017 +0000
+
+    Added more formatting to headers
+
+[33mcommit 72bcfa240fc4d32634a2f6453ba770148634ba19[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Mon Oct 30 23:57:03 2017 +0000
+
+    Added update to home page
+
+[33mcommit 6b2845c32b011bf96e613e9372e680caf392de50[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Mon Oct 30 23:39:16 2017 +0000
+
+    Added bootstrap-sass to gemfile
+
+[33mcommit f31de18e6fb3102f72603f4ca9316b45d2b4a746[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sun Oct 1 16:05:27 2017 +0000
+
+    Added bootstrap
+
+[33mcommit 9a0c4cd618eaae3f6d7b131c39cd6f4a54c901e4[m
+Merge: fee9c2d d9db8dd
+Author: bugbare <rshah@bugbare.co.uk>
+Date:   Wed Sep 27 22:50:09 2017 +0100
+
+    Merge pull request #2 from bugbare/rails-flavoured-ruby
+    
+    Rails flavoured ruby
+
+[33mcommit d9db8dd367f2665b730ae8d9448713d09a897b19[m[33m ([m[1;31morigin/rails-flavoured-ruby[m[33m, [m[1;32mrails-flavoured-ruby[m[33m)[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Sep 27 21:49:32 2017 +0000
+
+    removed example_user file
+
+[33mcommit 8380d44c3f973af78d89341a5e7c77bc3606afad[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Sep 27 21:48:04 2017 +0000
+
+    Amended sample model
+
+[33mcommit b0fdb9100b964b1e88409d31c31b9557422b5cdd[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Sep 27 21:25:40 2017 +0000
+
+    Added sample model
+
+[33mcommit c540cc873d9ae089650d8f4683063198fb1b8cb7[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Wed Sep 27 19:24:11 2017 +0000
+
+    added some ruby code to refactor title generator to default
+
+[33mcommit fee9c2d5e57ad4f7c43c90e18a6d339a27ed7df9[m
+Merge: 69e3cf5 9b4f6ae
+Author: bugbare <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 19:44:48 2017 +0100
+
+    Merge pull request #1 from bugbare/static-pages
+    
+    Static pages
+
+[33mcommit 9b4f6aef353f1c120b16f80cd38cce794d5e707a[m[33m ([m[1;31morigin/static-pages[m[33m)[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 18:44:22 2017 +0000
+
+    Added a test for root route
+
+[33mcommit 81b4e8e0af000d8522fe8fd5df8e8aaeb955624f[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 18:33:35 2017 +0000
+
+    Refactor of existing html title duplication and added contact page
+
+[33mcommit 9517cdba0f09230f520845fdfd3ee0bb1d99b151[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 18:00:55 2017 +0000
+
+    Added setup method in test static pages
+
+[33mcommit 8203483dccee6686fece887559fad65b88505ab6[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 17:39:32 2017 +0000
+
+    Added about view and controller method to fix broken tdd
+
+[33mcommit 0c6bd95d0c5b3a114bcdbdf48089e8c1ef65b644[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 17:09:01 2017 +0000
+
+    Added tdd for about page
+
+[33mcommit e414c72e2a141d2d3f342550bdd41eaf553e19e9[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 17:07:19 2017 +0000
+
+    Added minitest formatters for test console output to be clearer
+
+[33mcommit 1a604098a5be836f30f43148d1a9c4de62bc3c7b[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:57:25 2017 +0000
+
+    Amended the home and help page contents
+
+[33mcommit c1e5e1ea2ae7a21b733022e36e5bb081e4f34a62[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:54:51 2017 +0000
+
+    updated the route file formatting
+
+[33mcommit 3739e894dee002b789a6c141132902a6d5389746[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:36:12 2017 +0000
+
+    added a StaticPage controller and actions for home and help pages
+
+[33mcommit 69e3cf513273c205575663f743b0f54d9b36ed80[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:29:35 2017 +0000
+
+    Updated route and application controller to include hello world for prod
+
+[33mcommit 47036336861aaa109f989aa00af529b7635e7e0c[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:22:29 2017 +0000
+
+    updated readme file
+
+[33mcommit fa350bfbd0f908b3285c5b221895347b725abbc6[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:18:39 2017 +0000
+
+    updated gemfile based on tutorial requirements
+
+[33mcommit 3c684a318bd0ab7e79b2383aa24bedf53226d73c[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:16:35 2017 +0000
+
+    Generated sample app template using rails 5.1.2
+
+[33mcommit 54c45fd6459210bd2ac840be63d57e7393d2cb8b[m
+Author: lionelrishi <rshah@bugbare.co.uk>
+Date:   Sat Sep 23 16:12:18 2017 +0000
+
+    Initial commit
