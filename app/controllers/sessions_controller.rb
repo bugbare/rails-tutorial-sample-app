@@ -16,14 +16,8 @@ class SessionsController < ApplicationController
   end
   
   def destroy
-    log_out
+    log_out if logged_in?
     redirect_to root_url
-  end
-  
-  def remember(user)
-    user.remember
-    cookies.permanent.signed[:user_id] = user_id
-    cookies.permanent[:remember_token] = user.remember_token
   end
   
 end
