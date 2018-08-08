@@ -15,5 +15,12 @@ lionelrishi:
   
 anita:
   name: Anita Mehay
-  email: anitam@example.com
+  email: neats@example.com
   password_digest: <%= User.digest('test01') %>
+  
+<% 30.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@example.com" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>
