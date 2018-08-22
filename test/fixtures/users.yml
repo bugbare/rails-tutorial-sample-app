@@ -12,6 +12,7 @@ lionelrishi:
   name: Lionel Rishi
   email: lionelrishi@example.com
   password_digest: <%= User.digest('test01') %>
+  admin: true
   
 anita:
   name: Anita Mehay
