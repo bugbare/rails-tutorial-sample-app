@@ -47,6 +47,10 @@ class User < ApplicationRecord
     # update_attribute(:activated_at, Time.zone.now)
   end
   
+  def deactivate
+    update_columns(activated: false, activated_at: nil)
+  end
+  
   def send_activation_email
     UserMailer.account_activation(self).deliver_now
   end

@@ -7,6 +7,9 @@ class UsersController < ApplicationController
   def show
     @user = User.find(params[:id])
     redirect_to root_url and return unless @user.activated
+  rescue ActiveRecord::RecordNotFound
+    flash[:info] = "These aren't the droids you are looking for..."
+    redirect_to root_url
   end
   
   def new
