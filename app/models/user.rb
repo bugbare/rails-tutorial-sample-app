@@ -63,6 +63,11 @@ class User < ApplicationRecord
     UserMailer.password_reset(self).deliver_now
   end
   
+  # Sends activation email.
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
+  end
+  
   private
 
     # Converts email to all lower-case.
