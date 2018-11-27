@@ -17,7 +17,12 @@
 !/log/.keep
 !/tmp/.keep
 
+# ignore package output files
 /node_modules
 /yarn-error.log
 
+#ignore debugger output files
 .byebug_history
+
+# Ignore uploaded test images.
+/public/uploads
